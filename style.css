@@ -4,6 +4,10 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 header {
@@ -30,6 +34,10 @@ nav ul li a {
     font-weight: bold;
 }
 
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
 section {
     padding: 20px;
     text-align: center;
@@ -44,4 +52,3 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
